@@ -1,3 +1,6 @@
+// import { name } from './bases/01-types.ts'
+import { pokemonIds } from './bases/02-objects.ts'
+
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
@@ -5,6 +8,7 @@ import { setupCounter } from './counter.ts'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
+    <h1>Hola ${ pokemonIds }</h1>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>
